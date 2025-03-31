@@ -1,5 +1,24 @@
-flask==2.3.2
+# Core requirements
+Flask==2.3.2
 pandas==2.0.3
 scikit-learn==1.3.0
 numpy==1.24.3
-joblib==1.3.2
+joblib==1.3.1
+
+# Data processing
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Model serialization
+pickle-mixin==1.0.2
+
+# Development server
+Werkzeug==2.3.6
+Jinja2==3.1.2
+
+# Optional but recommended for production:
+gunicorn==20.1.0
+gevent==22.10.2
+
+# Security
+itsdangerous==2.1.2
