@@ -1,11 +1,13 @@
 # Telecom Customer Churn Prediction
 
 ## 1. Introduction
-This project develops a machine learning model to predict customer churn in telecom companies, featuring:
-- Real-time prediction via web interface
-- Probability estimation with confidence levels
-- Comprehensive input form for 19 customer parameters
-- Visual result presentation
+The telecommunications industry faces intense competition with customer churn rates averaging 15-25% annually. Our system addresses this challenge by providing:  
+
+- Early identification of potential churners  
+- Probability estimates for churn likelihood  
+- Web-based interface for operational use  
+- Explainable AI features through feature importance analysis
+
 
 ## 2. Basic Concepts & Literature Review
 
