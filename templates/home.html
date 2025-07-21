@@ -22,11 +22,40 @@
       content: " *";
       color: red;
     }
+    .team-section {
+      background-color: #f8f9fa;
+      padding: 30px 0;
+      margin-top: 30px;
+    }
+    .team-card {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .team-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .teacher-section {
+      background-color: #e9ecef;
+      padding: 20px 0;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .teacher-card img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
   <div class="container mt-4">
-    <h2 class="text-center mb-4">Customer Churn Prediction</h2>
+    <h2 class="text-center mb-4">Telecom Customer Churn Prediction</h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <form action="/" method="POST">
@@ -227,5 +256,60 @@
       </div>
     </div>
   </div>
+
+ <!-- Team Members Section -->
+ <section class="team-section" aria-labelledby="team-heading">
+  <div class="container">
+    <h2 id="team-heading" class="text-center mb-5">Our Team</h2>
+    <div class="row">
+      <!-- Team Member 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="team-card">
+          <img src="/static/images/team_member1.jpg" alt="Pradeep Kumar - Data Scientist">
+          <h3 class="h5">Data Scientist</h3>
+          <p>Pradeep Kumar</p>
+        </div>
+      </div>
+      
+      <!-- Team Member 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="team-card">
+          <img src="/static/images/team_member2.jpg" alt="Kaushik Kashyap - ML Engineer">
+          <h3 class="h5">ML Engineer</h3>
+          <p>Kaushik Kashyap</p>
+        </div>
+      </div>
+      
+      <!-- Team Member 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="team-card">
+          <img src="/static/images/team_member3.jpg" alt="Abhishek Narayan - Frontend Developer">
+          <h3 class="h5">Frontend Developer</h3>
+          <p>Abhishek Narayan</p>
+        </div>
+      </div>
+      
+      <!-- Team Member 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="team-card">
+          <img src="/static/images/team_member4.jpg" alt="Aadarsh Kumar - Backend Developer">
+          <h3 class="h5">Backend Developer</h3>
+          <p>Aadarsh Kumar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teacher Section -->
+<section class="teacher-section" aria-labelledby="teacher-heading">
+  <div class="container">
+    <h2 id="teacher-heading" class="text-center mb-5">Project Instructor</h2>
+    <div class="teacher-card">
+      <img src="/static/images/teacher.jpg" alt="Soumya Ranjan Mishra">
+      <h3 class="h4">Soumya Ranjan Mishra</h3>
+    </div>
+  </div>
+</section>
 </body>
 </html>
