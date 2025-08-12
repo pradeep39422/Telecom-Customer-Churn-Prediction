@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load data and model at startup
 try:
-    df_1 = pd.read_csv("first_telc.csv")
+    df_1 = pd.read_csv("first_tele.csv")  # Fixed filename
     model = pickle.load(open("model.sav", "rb"))
     expected_features = model.feature_names_in_
 except Exception as e:
