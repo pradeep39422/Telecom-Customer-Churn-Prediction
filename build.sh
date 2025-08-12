@@ -16,3 +16,6 @@ pip install --upgrade pip setuptools wheel
 
 # Install Python dependencies with compatibility flags
 CFLAGS="-Wno-deprecated-declarations" pip install --no-cache-dir -r requirements.txt
+echo "Python version: $(python --version)"
+echo "Pip version: $(pip --version)"
+echo "Setuptools path: $(python -c 'import setuptools; print(setuptools.__file__)')"
