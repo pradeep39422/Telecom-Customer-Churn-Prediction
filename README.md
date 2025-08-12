@@ -138,3 +138,4 @@ project-root/
 ├── model.sav
 └── first_telc.csv
 ```
+[Deployed using render.com: "Telecom-customer-churn-prediction"](https://telecom-customer-churn-prediction-01.onrender.com)
